@@ -4,7 +4,7 @@ export const cardComponent = (product) => {
             <div
                     class="relative h-56 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
                 <img
-                        src=${product?.images || "https://www.svgrepo.com/show/508699/landscape-placeholder.svg"}
+                        src=${product?.images[0] || "https://www.svgrepo.com/show/508699/landscape-placeholder.svg"}
                         alt="card-image" />
             </div>
             <div class="p-6">
